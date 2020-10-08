@@ -1,8 +1,41 @@
 
+.navbarContainer{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+     
+    
+    background-color: #343434;
+    
+}
+
+
+.rightNav{
+    display: flex;
+    flex-direction: row;
+   
+}
+.myName{ 
+    position: absolute;
+    left: 5%;
+    top: -20%;
+
+    font-size: 40px;
+    font-family: 'calligraffitti';
+    color: #8e793e;
+    font-weight: 1800;
+
+
+}
+
 .navButtons{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-right: 5%;
+
 }
 
 
@@ -13,12 +46,19 @@
 
 
     font-size: 20px;
-    
-
 }
 
-    .navbarText:hover{
+
+.navbarText:hover{
+    text-decoration: none;
+    border-bottom:  2px solid #8e793e;
+    
+}
+
+    .navbarText {
+        color: ivory;
         text-decoration: none;
-        border-bottom:  4px solid #8e793e;
+
+        font-size: 24px;
         
     }
