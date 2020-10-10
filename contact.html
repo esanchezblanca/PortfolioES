@@ -16,7 +16,7 @@
 
             <nav class="navContainer">
 
-                <img class="headerLogo"  src="img/logo.jpg" alt="headerLogo">
+                <img class="headerLogo"  src="img/logoBlank60.jpg" alt="headerLogo">
 
                 <ul class="navButtonContainer">
 
@@ -38,35 +38,40 @@
         </div>
     </header>
 
-    <div>
-        <h1>
+    <div class="formContainer">
 
+        <h1 class="contactmeHeader">
+            Contact me
         </h1>
-        <p>
 
+        <p class="explanationForm">
+            I am interested in new challenges and job opportunities. <br>
+            If you have any questions, please fill in the form below.
         </p>
         <p>&nbsp;</p>
+
         <div>
+
             <form autocomplete="off">
-                <ul>
-                    <li>
-                        <input type="text" placeholder="Full Name">
+                <ul class="formCells">
+                    <li class="formCellContent">
+                        <input type="text" class="cellContent" placeholder="Full Name">
+                    </li>
+
+                    <li class="formCellContent">
+                        <input type="email" placeholder="Email" class="cellContent">
+                    </li>
+
+                    <li class="formCellContent">
+                        <input type="text" class="cellContent" placeholder="Subject" >
+                    </li>
+
+                    <li class="formCellContent">
+                        <textarea class="messageCell" placeholder="Message" ></textarea>
                     </li>
 
                     <li>
-                        <input type="email" placeholder="Email">
-                    </li>
-
-                    <li>
-                        <input type="text" class="" placeholder="Subject">
-                    </li>
-
-                    <li>
-                        <textarea class="" placeholder="Message"></textarea>
-                    </li>
-
-                    <li>
-                         <input type="button" value="Send"> <!-- Cambiar a type "submit" -->
+                        <input type="button" class="sendButton" value="Send"> <!-- Cambiar a type "submit" -->
                     </li>
                 </ul>
             </form>
