@@ -209,8 +209,12 @@ margin-top: 7em;
 
 .skillsLogos{
     position: absolute;
-    top: 18em;
-    left: 15em;
+    top:18em;
+    left: 9em;
+
+    height: 20em;
+    width: 20em;
+  
 }
 
 .skillsUl{
